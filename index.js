@@ -1,8 +1,11 @@
-const main = document.getElementById("main");
+// Write your solution here! 
+
+const main = document.getElementById('main');
 main.remove();
+
 const newHeader = document.createElement("h1");
 newHeader.id = 'victory';
-newHeader.textContent = "John is the champion";
+newHeader.innerHTML = "John is the champion";
 
 
 
